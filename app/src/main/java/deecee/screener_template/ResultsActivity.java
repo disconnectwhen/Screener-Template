@@ -41,7 +41,7 @@ public class ResultsActivity extends AppCompatActivity implements View.OnClickLi
                 startActivity(intent);
                 break;
             case(R.id.website_button):
-                intent = new Intent(Intent.ACTION_VIEW, Uri.parse("WEBSITE-URL"));
+                intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com/"));
                 startActivity(intent);
                 break;
             default:

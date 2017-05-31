@@ -69,10 +69,10 @@ public class InfoTwoActivity extends AppCompatActivity implements View.OnClickLi
 
         switch(view.getId()){
             case(R.id.infoTwo_maleButton):
-                next.putExtra("gender", "MALE");
+                next.putExtra("gender", "male");
                 break;
             case(R.id.infoTwo_femaleButton):
-                next.putExtra("gender", "FEMALE");
+                next.putExtra("gender", "female");
                 break;
             default:
                 break;

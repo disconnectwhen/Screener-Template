@@ -40,13 +40,13 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
 
         Intent intent = getIntent();
 
-        switch(intent.getStringExtra("GENDER")){
-            case("MALE"):
+        switch(intent.getStringExtra("gender")){
+            case("male"):
                 answers = new String[maleQuestions.length];
                 questions = maleQuestions;
                 SERVER_URL = "MALE-PHP-URL";
                 break;
-            case("FEMALE"):
+            case("female"):
                 answers = new String[femaleQuestions.length];
                 questions = femaleQuestions;
                 SERVER_URL = "FEMALE-PHP-URL";
